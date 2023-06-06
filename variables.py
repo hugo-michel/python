@@ -108,3 +108,14 @@ a = d
 b = c
 print("a" , a)
 print("b" , b)
+
+
+#arrondi float
+import decimal
+from decimal import Decimal
+
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+print(Decimal("0.5").quantize(Decimal("1"))) # Decimal('1')
+print(Decimal("1.5").quantize(Decimal("1"))) # Decimal('2')
+print(Decimal("0.125").quantize(Decimal("0.1"))) # Decimal('0.1')
+
