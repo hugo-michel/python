@@ -15,3 +15,10 @@ price_beta = 1.70
 
 # réponse 3.9
 
+weight_alpha = 120 / 1000
+weight_beta = 100 / 1000
+
+price_alpha_kilo = price_alpha / weight_alpha
+price_beta_kilo = price_beta / weight_beta
+
+print(price_alpha_kilo < price_beta_kilo)
