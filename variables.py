@@ -39,7 +39,7 @@ print(type(number1) is str)
 print(type(text1) is bool)
 print(type(text1) is str)
 
-#transtipage change un type en un autre
+#transtypage change un type en un autre
 str(number1)
 print(type(str(number1)))
 
@@ -60,3 +60,51 @@ print(type(int(text3)))
 #int() : converti vers integer
 #bool() : converti vers booleen
 #float() : converti vers float
+
+#string multilignes
+texte4 = """<div>
+      <h1></h1>
+</div>
+"""
+
+print(texte4)
+
+#\n saut de ligne
+#\t tabulation
+texte5 = "<div>\n\t<h1></h1>\n</div>"
+print(texte5)
+
+#caractere echappement
+#\\ = \
+#\" = "
+texte6 = "C\ProgramsFiles"
+print(texte6)
+
+texte7 = "Foo \"Bar\" Baz"
+print(texte7)
+
+#exo permutez la valeure des deux variables
+a = 123
+b = 42
+temp = a
+a = b
+b = temp
+print("a" , a)
+print("b" , b)
+
+a = 123
+b = 42
+a = a + b
+b = a - b
+a = a - b
+print("a" , a)
+print("b" , b)
+
+a = 123
+b = 42
+c = a
+d = b
+a = d
+b = c
+print("a" , a)
+print("b" , b)
