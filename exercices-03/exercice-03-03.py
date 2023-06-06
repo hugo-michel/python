@@ -13,6 +13,6 @@ friends = 3
 
 # réponse 3.3
 candies_per_person = candies // friends
-chocolates_per_preson = chocolates // friends
+chocolates_per_person = chocolates // friends
 print(candies_per_person)
-print(chocolates_per_preson)
+print(chocolates_per_person)
