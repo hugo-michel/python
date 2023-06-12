@@ -21,3 +21,18 @@ elif electricity_off and not water_off:
 else:
     print("il faut éteindre l'électricité et couper l'eau")
 
+
+if True:
+    print("le message s'affichera toujours")
+
+if False:
+    print("le message ne s'affichera jamais")
+
+number1 = random.randint(0,10)
+number2 = random.randint(0,10)
+print(f"{number1 = }")
+print(f"{number2 = }")
+if number1 < number2:
+    print("number1 est plus petit que number2")
+else:
+    print("number1 est plus grand que number2")
