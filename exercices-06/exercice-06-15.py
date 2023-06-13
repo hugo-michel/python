@@ -17,12 +17,9 @@ index = 0
 for i in range(0, len(my_list)):
     if len(my_list[i]) > longueur:
         longueur = len(my_list[i])
-        if longueur == len(my_list[i]):
-                valeur = my_list[i]
-                index = i
+        valeur = my_list[i]
+        index = i
         i = i + 1
-    else:
-        i = i+1
 
 print(index)
 print(valeur)
