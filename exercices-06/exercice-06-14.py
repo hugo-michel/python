@@ -13,7 +13,6 @@ new_list = []
 for i in range(0, len(my_list)):
     if type(my_list[i]) == int:
         new_list.append(my_list[i])
-        i = i + 1
 
 print(new_list)
 

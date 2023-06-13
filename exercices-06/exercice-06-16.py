@@ -16,10 +16,12 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 i = 0
 
-for i in range(0, len(my_list)):
-    if i%2 == 0:
+# for i in range(0, len(my_list)):
+#     if i%2 == 0:
+#         (my_list[i], my_list[i + 1]) = (my_list[i + 1], my_list[i])
+
+for i in range(0, len(my_list), 2):
         (my_list[i], my_list[i + 1]) = (my_list[i + 1], my_list[i])
-        i = i + 1
 
 print(my_list)
 

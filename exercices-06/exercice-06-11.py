@@ -14,7 +14,6 @@ i = 0
 for i in range(0, len(my_list)):
     if my_list[i] == 3.14:
         print(i)
-    else:
-        i = i + 1
+    
 
     

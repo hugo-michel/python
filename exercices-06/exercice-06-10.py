@@ -13,6 +13,5 @@ i = 0
 
 for i in range(0, len(my_list)):
     total = my_list[i] + total
-    i = i + 1
 
 print(total / len(my_list))
