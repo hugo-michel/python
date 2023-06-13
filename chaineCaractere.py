@@ -46,6 +46,8 @@ print(f"texte6 : {texte6}")
 #longueur strings
 print(f"longueur: " , len(texte6), "caracteres")
 #index chaine de caractere dans string
+#pour chercher une autre occurence du mm mot texte6.find("bar", position + 1)
+#si la recherche ne renvoie rien (le mot n'est pas présent) renvoie -1
 print(f"index bar : ", texte6.find("bar"))
 #occurence chaine de caractere dans string
 print(f"occurences ba dans texte6 : ", texte6.count("ba"))
@@ -53,11 +55,11 @@ print(f"occurences ba dans texte6 : ", texte6.count("ba"))
 print("rzmplacement bar par lorem")
 texte6 = texte6.replace("bar", "lorem")
 print(texte6)
-#scinder texte
+#scinder texte : creer une liste
 print("split espace separateur")
 liste_mots = texte6.split(" ")
 print(liste_mots)
-#remplacement par split() et join()
+#remplacement par split() et join()  join transforme une liste en strings : texte8= " ".join(list1)
 old = "baz"
 new = "ipsum"
 tmp = texte6.split(old)
