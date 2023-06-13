@@ -82,4 +82,45 @@ print(False and False)
 #F  F   F       T
 
 
+#ou exclusif XOR : l'un ou l'autre mais pas les deux
 
+#A      B       A XOR B
+#T      T       F
+#T      F       T
+#F      T       T
+#F      F       F
+
+print(True ^ True)
+print(True ^ False)
+
+#exo course opérateur or 
+has_cash = bool(random.randint(0,1))
+has_cb = bool(random.randint(0,1))
+print(f"cash : {has_cash : }")
+print(f"cb : {has_cb : }")
+
+if has_cash | has_cb:
+    print("je peux faire les courses")
+else:
+    print("je ne peux pas faire les courses")
+
+#exo course opérateur AND
+print(f"cash : {has_cash : }")
+print(f"cb : {has_cb : }")
+
+if not has_cash and not has_cb:
+    print("courses pas ok")
+else:
+    print("course ok")
+
+
+#combinaisons or et and
+#joueur doit avoir mini lvl 3 ET soit xp 100 ou social 100
+user_level = 3
+user_xp = 0
+user_social = 150
+
+if user_level >= 3 and (user_xp >= 100 or user_social >= 100):
+    print("le joueur peut acheter")
+else:
+    print("le joueur ne peut pas acheter")
