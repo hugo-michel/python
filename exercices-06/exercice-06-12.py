@@ -12,6 +12,6 @@ occ = 0
 
 for i in range(0, len(my_list)):
     if my_list[i] <=10:
-        occ = occ + 1
+        occ += 1
 
 print(occ)
