@@ -73,3 +73,21 @@ print(f"texte 6 index 4 à 7 pas de 2 : ", texte6[4:7:2])
 print(f"texte 6 index 4 jusque la fin :", texte6[4:])
 print(f"texte 6 debut à index 7 :", texte6[:7])
 print(f"texte 6 caractere inversé : ", texte6[::-1])
+
+#documentation focntion
+
+def ouiNon(value):
+    """"  "oui" si true
+    "non" si false
+    "" sinon 
+
+    value bool
+    return str
+    """
+    if value == True:
+        return "oui"
+    elif value == False:
+        return "non"
+    return ""
+
+print(ouiNon.__doc__)
