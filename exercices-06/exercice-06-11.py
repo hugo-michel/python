@@ -9,8 +9,6 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.11
 
-i = 0
-
 # for i in range(0, len(my_list)):
 #     if my_list[i] == 3.14:
 #         print(i)

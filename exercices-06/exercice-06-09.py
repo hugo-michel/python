@@ -19,5 +19,4 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 somme = 0
 for item in my_list:
     somme += item
-
 print(somme)

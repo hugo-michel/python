@@ -14,8 +14,6 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.16
 
-i = 0
-
 # for i in range(0, len(my_list)):
 #     if i%2 == 0:
 #         (my_list[i], my_list[i + 1]) = (my_list[i + 1], my_list[i])

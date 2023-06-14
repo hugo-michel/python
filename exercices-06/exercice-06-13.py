@@ -7,9 +7,7 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
 
-i = 0
 
 for i in range(0, len(my_list)):
     my_list[i] *= 100
-
 print(my_list)

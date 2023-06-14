@@ -17,13 +17,17 @@ print(matrix)
 
 # réponse 6.18
 
-liste = []
+# liste = []
+
+# for l in range(0, size):
+#     for c in range(0, size):
+#         if matrix[l][c] <= 50:
+#             liste.append(matrix[l][c])
+#             liste.append(l)
+#             liste.append(c)
+# print(liste)
 
 for l in range(0, size):
     for c in range(0, size):
         if matrix[l][c] <= 50:
-            liste.append(matrix[l][c])
-            liste.append(l)
-            liste.append(c)
-
-print(liste)
+            print(((matrix[l][c], f"ligne {l + 1}", f"colonne {c + 1}")))
