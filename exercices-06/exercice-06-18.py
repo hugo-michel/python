@@ -18,7 +18,6 @@ print(matrix)
 # réponse 6.18
 
 # liste = []
-
 # for l in range(0, size):
 #     for c in range(0, size):
 #         if matrix[l][c] <= 50:
@@ -26,6 +25,11 @@ print(matrix)
 #             liste.append(l)
 #             liste.append(c)
 # print(liste)
+
+# for l in range(0, size):
+#     for c in range(0, size):
+#         if matrix[l][c] <= 50:
+#             print(((matrix[l][c], f"indexLigne {l}", f"indexColonne {c}")))
 
 for l in range(0, size):
     for c in range(0, size):
