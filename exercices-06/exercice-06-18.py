@@ -17,8 +17,6 @@ print(matrix)
 
 # réponse 6.18
 
-l = 0
-c = 0
 liste = []
 
 for l in range(0, size):
