@@ -17,4 +17,4 @@ i = 0
     
 for i, item in enumerate(my_list):
     if item == 3.14:
-        print(i)
+        print(f"l'index de la valeur 3.14 est {i}")
