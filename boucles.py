@@ -1,4 +1,5 @@
 import math
+import random
 
 #boucle while
 i = 0
@@ -91,3 +92,29 @@ print(f"moyenne article htva {moyenne_article:.2f}")
 moyenne_article_tronquee = math.floor(total / len(items) * 100 ) / 100
 print(moyenne_article_tronquee)
 
+
+
+#premier tirage
+dice = random.randint(1,6)
+
+while dice != 6:
+    print(f"j'ai tiré {dice}")
+    print("je recommence un nouveau tirage")
+    dice = random.randint(1,6)
+print("j'ai tiré un 6")
+
+#######for each exemple 2
+
+users = ["foo", "bar", "baz"]
+for user in users :
+    print(user)
+
+for i, user in enumerate(users):
+    print(f"{i = }{ user = }")
+
+
+#######accumulateur
+accumulateur = 0
+for i in range(1,11):
+    accumulateur += i
+print(accumulateur)
