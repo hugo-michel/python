@@ -16,7 +16,7 @@ my_dict = {
     True : 123,
     False : 3.14,
     2 : "foobarbaz",
-    "A" : True,
+    "a" : True,
 }
 
 print(my_dict)
