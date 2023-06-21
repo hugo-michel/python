@@ -9,7 +9,7 @@ import random
 
 count = 0
 
-for i in range(0, 99):
+for i in range(0, 100):
     r = random.randint(1, 10)
     if 2 <= r <= 9:
         count += 1

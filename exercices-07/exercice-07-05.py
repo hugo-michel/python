@@ -6,7 +6,7 @@ import random
 
 # réponse 7.5
 
-for i in range(0, 99):
+for i in range(0, 100):
     r = random.randint(1, 10)
     if r >= 6:
         print(r)
